@@ -1,0 +1,10 @@
+# Top-level pins, tested together on Python 3.12 (project target: Python 3.11+).
+# Transitive dependencies (pandas, numpy-compatible extras, etc.) are resolved by pip;
+# to freeze them as well:  pip freeze > requirements.lock.txt
+polars==2.1.0
+numpy==2.5.4
+pyarrow==26.0.0
+requests==2.34.2
+pytest==9.2.0
+plotly==7.1.0
+streamlit==1.66.1
